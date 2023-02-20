@@ -8,6 +8,7 @@ node
     }
     stage('Build'){
         nodejs(nodeJSInstallationName: 'nodejs16.19.0'){
+	sh "chmod u+x ./stopApp.sh"
         sh "npm install"
 	sh "nohup npm start &"
     }
