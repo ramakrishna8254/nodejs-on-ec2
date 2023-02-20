@@ -10,7 +10,6 @@ node
         nodejs(nodeJSInstallationName: 'nodejs16.19.0'){
 	sh "sudo killall -9 node"
         sh "sudo npm install"
-	sh "sudo nohup npm start &"
     }
     }
  	stage('ExecuteSonarQubeReport'){
