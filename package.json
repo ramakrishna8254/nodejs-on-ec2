@@ -3,18 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+   "publishConfig": {
+    "regisrty": "http://ec2-13-232-225-184.ap-south-1.compute.amazonaws.com:8081/repository/nodejs-cloud4c/"
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnpapa/node-hello.git"
+    "url": "http://ec2-13-232-225-184.ap-south-1.compute.amazonaws.com:8081/repository/nodejs-cloud4c/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johnpapa/node-hello/issues"
+    "url": "http://ec2-13-232-225-184.ap-south-1.compute.amazonaws.com:8081/repository/nodejs-cloud4c/"
   },
-  "homepage": "https://github.com/johnpapa/node-hello#readme"
+  "homepage": "https://github.com/ramakrishna8254/nodejs-on-ec2.git"
 }
