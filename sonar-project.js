@@ -11,7 +11,7 @@ sonarqubeScanner({
             'sonar.projectVersion':'1.0',
 	    'sonar.language':'js',
             'sonar.sourceEncoding':'UTF-8',
-            'sonar.sources': '.',
+            'sonar.sources': 'src',
 	    "sonar": "node sonar-project.js" "test": "echo "Error: no test specified" && exit 1"
 	    //'sonar.exclusions': '**/node_modules/**,/coverage/lcov-report/*.test/*.js',
 	    //'sonar.javascript.lcov.reportPaths': 'coverage/lcov.info',
