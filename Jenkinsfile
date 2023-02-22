@@ -11,5 +11,10 @@ node
         sh "npm install"
     }
     }
+    stage('ExecuteSonarQubeReport'){
+        nodejs(nodeJSInstallationName: 'nodejs16.19.0'){
+        sh "npm run sonar"
+    }
+    }
  
 }
