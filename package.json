@@ -9,11 +9,7 @@
   "scripts": {
     "start": "node index.js"
   },
-    "devDependencies": {
-    "nodemon": "^1.18.9",
-    "sonarqube-scanner": "^2.7"
-  },
-  "engines": {
+   "engines": {
     "node": "v16.19.1"
   },
   "repository": {
