@@ -13,7 +13,7 @@ node
     }
     stage('ExecuteSonarQubeReport'){
         nodejs(nodeJSInstallationName: 'nodejs16.19.0'){
-        sh "sudo npm run sonar -Dsonar.login='admin'-Dsonar.password='admin'"
+        sh "npm run sonar index.js"
     }
     }
  
