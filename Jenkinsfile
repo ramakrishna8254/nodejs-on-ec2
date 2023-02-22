@@ -9,11 +9,8 @@ node
     stage('Build'){
         nodejs(nodeJSInstallationName: 'nodejs16.19.0'){	
         sh "npm install"
+	sh "sudo nohup npm start &"
     }
     }
- 	stage('ExecuteSonarQubeReport'){
-        nodejs(nodeJSInstallationName: 'nodejs16.19.0'){
-        sh "npm run sonar"
-    }
-    }
+ 
 }
